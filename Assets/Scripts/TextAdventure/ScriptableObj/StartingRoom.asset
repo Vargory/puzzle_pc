@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec1d4b65ffa12047add3fe4bfc01656, type: 3}
+  m_Name: StartingRoom
+  m_EditorClassIdentifier: 
+  description: "Voc\xEA acorda em uma sala escura"
+  roomName: starting room
+  exits:
+  - keyString: south
+    exitDescription: "H\xE1 uma passagem ao sul"
+    valueRoom: {fileID: 11400000, guid: 03b2a769adb5cb44ba4aa630ef315ea3, type: 2}
